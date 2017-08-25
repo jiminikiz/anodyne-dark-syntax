@@ -1,11 +1,23 @@
-## Anodyne Dark Syntax
+## Anodyne Material Dark Syntax
 
-Atom editor syntax theme. Fork of atom's [One Dark](https://atom.io/themes/one-dark-syntax).
+An Atom editor syntax theme. A fork of:
 
-![anoydyne-ss](https://cloud.githubusercontent.com/assets/9450681/12700170/be527932-c794-11e5-931b-a0ad1de51d77.png)
+1. `williampan's` [anodyne-dark-syntax](https://github.com/williampan/anodyne-dark-syntax)
+  - corrected deprecated styles
+  - changed colors
+2. `brandonlilly's` [anodyne-dark-syntax](https://github.com/brandonlilly/anodyne-dark-syntax).
+  - original theme
 
-Screenshot uses Anodyne Dark Syntax and [One Dark UI](https://atom.io/themes/one-dark-ui).
+This theme will add a material approach the the color scheme and use more of the available selectors for highlighting.
+
+<!-- ![anoydyne-material-dark-syntax](https://cloud.githubusercontent.com/assets/9450681/12700170/be527932-c794-11e5-931b-a0ad1de51d77.png)-->
 
 ### Install
 
-Download and add anodyne-dark-syntax folder to your Atom package folder. If atom is already open, press `cmd-alt-ctrl-L` or select __View > Reload__. Navigate to __Settings > Themes__ section and select 'Anodyne Dark' from the __Syntax Themes__ drop-down menu.
+```bash
+git clone git@github.com:jiminikiz/anodyne-material-dark-syntax.git $HOME/.atom/packages
+```
+
+Navigate to __Settings > Themes__ section and select `Anodyne Material Dark` from the __Syntax Themes__ drop-down menu.
+
+When it's ready, this theme will be published to the Atom Packages repository.
